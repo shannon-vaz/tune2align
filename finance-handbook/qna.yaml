@@ -1,0 +1,34 @@
+created_by: Team Tune2Align
+domain: personal finance
+seed_examples:
+  - question: What is personal finance?
+    answer: |
+      Personal finance is an activity that involves all the individual financial
+      decisions, which includes budgeting, saving, insurance, mortgages. When a
+      person plans his personal finance, he needs to take a range of financial
+      products and other personal factors into consideration. Personal finance
+      has a huge influence on one's life and future.
+  - question: What is a savings account?
+    answer: |
+      A saving account is the account that generates interest for customers.
+      However, customers need to sacrifice the liquidity in exchange for the
+      monetary return. Saving account includes a few kinds of accounts, and the
+      typical one is called time deposit account. Time deposit, also known as
+      fixed deposit, is a deposit that cannot be withdrawn until a specific
+      time. It is opposite from the demand deposit, which doesn't have a
+      maturity date. A fixed deposit provides a higher interest rate.
+  - question: What is personal finance planning process?
+    answer: |
+      Financial planning is a way to financial security. It helps people to
+      reach their personal goals. A financial plan sets a journey from present
+      condition to the desired objective. The process of financial planning in
+      general consists of five steps. 1) Gathering information and evaluating
+      current financial situation 2) Setting financial goals 3) Developing a
+      financial plan 4) Implementing the plan 5) Reviewing and Revising the plan
+      as per situation
+task_description: "answer personal finance queries and generate suggestions for portfolio management"
+document:
+  repo: https://github.com/shannon-vaz/tune2align
+  commit: f651fb32ebbf935812254c5588b4ca8a5cfa4587
+  patterns:
+    - "**/*/fin*.md"
